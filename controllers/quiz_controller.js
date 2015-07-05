@@ -11,4 +11,7 @@ exports.answer = function(req, res){
 		res.render('quizes/answer', {respuesta: 'Incorrecto'});
 	}
 };
+<<<<<<< HEAD
 
+=======
+>>>>>>> 02b919dc15d18812195a3b11b07f476af9713b16
