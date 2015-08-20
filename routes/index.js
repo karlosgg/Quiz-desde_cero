@@ -14,7 +14,7 @@ router.param('quizId', quizController.load);
 /* GET author page */
 
 router.get('/author', function(req, res) {
-  res.render('author', { author: 'José Carlos Grijalva Gonzalez' });
+  res.render('author', { author: 'José Carlos Grijalva Gonzalez', errors:[] });
 });
 
 /*GET Quizes*/
